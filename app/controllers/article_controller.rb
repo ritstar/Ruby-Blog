@@ -1,4 +1,0 @@
-class ArticleController < ApplicationController
-
-	
-end
