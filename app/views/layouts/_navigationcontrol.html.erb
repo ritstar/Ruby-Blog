@@ -20,7 +20,8 @@
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
           <!--a class="dropdown-item" href=<!%= articles_new_path %>>New</a-->
           <%= link_to "New", articles_new_path, class: "dropdown-item" %>
-          <a class="dropdown-item" href="#">Another action</a>
+          
+          <%= link_to "Show Articles", articles_path, class: "dropdown-item"%>
           <div class="dropdown-divider"></div>
           <a class="dropdown-item" href="#">Something else here</a>
         </div>
